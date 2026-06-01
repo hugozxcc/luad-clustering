@@ -1,0 +1,32 @@
+Clinical association: cluster vs AJCC pathologic stage (main stages)
+
+Merged rows (patients): 517 
+Rows after stage cleaning: 509 
+
+Contingency table (collapsed):
+   
+      I  II III  IV
+  1 194  73  45  14
+  2  82  49  40  12
+
+Fisher's Exact Test (Monte Carlo, B=10000) -- PRIMARY:
+
+	Fisher's Exact Test for Count Data with simulated p-value (based on 10000
+	replicates)
+
+data:  tab_stage
+p-value = 0.009199
+alternative hypothesis: two.sided
+
+
+Pearson Chi-squared test (reference only):
+
+	Pearson's Chi-squared test
+
+data:  tab_stage
+X-squared = 11.339, df = 3, p-value = 0.01003
+
+
+Expected counts summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  9.348  27.083  49.151  63.625  83.411 176.770 

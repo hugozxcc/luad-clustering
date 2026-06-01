@@ -24,7 +24,6 @@ paper/
 01_data_raw/
 02_data_processed/
 
-# Generated analysis outputs
-04_results/
+# Large local R objects
 df.rds
 results.rds
