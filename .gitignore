@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Thesis/manuscript/reference files
+*.pdf
+paper/
+*.docx
+
+# Raw / processed data
+01_data_raw/
+02_data_processed/
+
+# Generated analysis outputs
+04_results/
+df.rds
+results.rds
